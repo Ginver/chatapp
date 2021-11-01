@@ -8,7 +8,7 @@ function Login({ onIdSubmit }) {
     function handleSubmit(e) {
         e.preventDefault()
 
-        onIdSubmit(idRef.current.valueOf)
+        onIdSubmit(idRef.current.value)
     }
 
     function createNewId() {
